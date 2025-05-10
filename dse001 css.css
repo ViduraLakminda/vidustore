@@ -1,0 +1,144 @@
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #100f1c; 
+            color: #ffffff;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        .main-header {
+            background-image: linear-gradient(rgba(40, 20, 80, 0.6), rgba(20, 10, 50, 0.8)), url('D:/Download/websites.png'); 
+            background-size: cover;
+            background-position: center;
+            padding-bottom: 80px;
+            min-height: 70vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .nav-links {
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-left: 25px;
+        }
+
+        .nav-links li a {
+            color: #e0e0e0;
+            font-size: 0.9em;
+            padding: 5px 0;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links li a:hover,
+        .nav-links li a.active {
+            color: #ffffff;
+            border-bottom: 2px solid #007bff;
+        }
+
+        .nav-buttons .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .nav-buttons .btn-primary {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+
+        .nav-buttons .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .nav-buttons .btn-secondary {
+            background-color: transparent;
+            color: #ffffff;
+            border: 1px solid #ffffff;
+        }
+
+        .nav-buttons .btn-secondary:hover {
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            text-align: left;
+            padding: 80px 0 40px;
+            flex-grow: 1; 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .hero-section .sub-heading {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #e0e0e0;
+            letter-spacing: 1px;
+        }
+
+        .hero-section .btn-hero {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px 35px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            align-self: flex-start;
+        
+
+        .hero-section .btn-hero:hover {
+            background-color: #0056b3;
+        }
